@@ -234,10 +234,6 @@ ul li {
     transition: box-shadow 0.3s ease, transform 0.3s ease;
 }
 
-.project-item:hover {
-    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
-    transform: translateY(-3px);
-}
 
 .project-item h3 {
     margin-top: 0;
