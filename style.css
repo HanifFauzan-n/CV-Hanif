@@ -215,3 +215,73 @@ ul li {
         font-size: 1.1em;
     }
 }
+
+/* ==============================================
+  3. GAYA BAGIAN PROYEK (TAMBAHAN)
+==============================================
+*/
+.project-list {
+    display: flex;
+    flex-direction: column;
+    gap: 25px; /* Jarak antar kartu proyek */
+}
+
+.project-item {
+    background-color: #f9f9f9;
+    border: 1px solid #e9e9e9;
+    padding: 20px;
+    border-radius: 8px;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.project-item:hover {
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    transform: translateY(-3px);
+}
+
+.project-item h3 {
+    margin-top: 0;
+    color: #0056b3; /* Warna judul proyek */
+}
+
+.project-item h4 {
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    color: #333;
+    font-size: 1.05em;
+}
+
+.project-description {
+    margin-bottom: 15px;
+}
+
+.project-item ul {
+    margin-bottom: 15px;
+}
+
+.tech-stack {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px; /* Jarak antar 'pil' teknologi */
+}
+
+.tech-item {
+    display: inline-block;
+    background-color: #e0eafc; /* Latar belakang pil */
+    color: #0056b3; /* Warna teks pil */
+    padding: 5px 12px;
+    border-radius: 15px;
+    font-size: 0.85em;
+    font-weight: 500;
+}
+
+/* Opsional: Warna berbeda untuk jenis teknologi yang berbeda */
+.tech-item.tech-backend {
+    background-color: #d1e7dd;
+    color: #0f5132;
+}
+.tech-item.tech-db {
+    background-color: #f8d7da;
+    color: #842029;
+}

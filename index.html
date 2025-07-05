@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV - Hanif Fauzan Nurrahman</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./public/CV.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
@@ -33,19 +34,85 @@
         <main class="content">
             <div class="left-column">
                 <section class="experience">
-                    <h2 data-lang-id="PENGALAMAN PROJECT" data-lang-en="PROJECT EXPERIENCE">PENGALAMAN PROJECT</h2>
-                    <div class="job">
-                        <h3 data-lang-id="Dalam kursus PUB (Pemberdayaan Umat Berkelanjutan)" data-lang-en="In the PUB (Pemberdayaan Umat Berkelanjutan) course">Dalam kursus PUB (Pemberdayaan Umat Berkelanjutan)</h3>
-                        <p class="date">September 2022 – Sekarang</p>
-                        <p data-lang-id="Membuat beberapa Project diantaranya:" data-lang-en="Created several projects including:">Membuat beberapa Project diantaranya:</p>
-                        <ul>
-                            <li><strong data-lang-id="Project Aplikasi konter pulsa |" data-lang-en="Project Credit Counter Application |">Project Aplikasi konter pulsa |</strong><span data-lang-id=" Mengerjakan aplikasi jual beli pulsa menggunakan bahasa pemograman C" data-lang-en=" Worked on a credit sales application using the C programming language."> Mengerjakan aplikasi jual beli pulsa menggunakan bahasa pemograman C.</span></li>
-                            <li><strong data-lang-id="Project Web info anime |" data-lang-en="Project Anime Info Website |">Project Web info anime |</strong><span data-lang-id=" Mengerjakan website menggunakan HTML, CSS, Javascript" data-lang-en=" Developed a website using HTML, CSS, and Javascript."> Mengerjakan website menggunakan HTML, CSS, Javascript.</span></li>
-                            <li><strong data-lang-id="Project Web FlashCell |" data-lang-en="Project FlashCell Website |">Project Web FlashCell |</strong><span data-lang-id=" Mengerjakan Website dengan Java thymeleaf dan Database MySQL" data-lang-en=" Built a website with Java Thymeleaf and a MySQL Database."> Mengerjakan Website dengan Java thymeleaf dan Database MySQL.</span></li>
-                            <li><strong data-lang-id="Project Web Perpustakaan |" data-lang-en="Project Library Website |">Project Web Perpustakaan |</strong><span data-lang-id=" Mengerjakan Website dengan Java Spring dan Database PostgreSQL" data-lang-en=" Developed a website with Java Spring and a PostgreSQL Database."> Mengerjakan Website dengan Java Spring dan Database PostgreSQL.</span></li>
-                        </ul>
-                    </div>
-                </section>
+    <h2 data-lang-id="PENGALAMAN PROJECT" data-lang-en="PROJECT EXPERIENCE">PENGALAMAN PROJECT</h2>
+    
+    <div class="project-list">
+
+        <div class="project-item">
+            <h3 data-lang-id="Aplikasi Konter Pulsa (Berbasis Konsol/CLI)" data-lang-en="Pulse Counter Application (CLI-Based)">Aplikasi Konter Pulsa (Berbasis Konsol/CLI)</h3>
+            <p class="project-description" data-lang-id="Aplikasi command-line interface (CLI) sederhana yang dirancang untuk mensimulasikan proses transaksi dan manajemen dasar pada sebuah konter pulsa." data-lang-en="A simple command-line interface (CLI) application designed to simulate transactions and basic management processes for a phone credit counter.">Aplikasi command-line interface (CLI) sederhana yang dirancang untuk mensimulasikan proses transaksi dan manajemen dasar pada sebuah konter pulsa.</p>
+            
+            <h4 data-lang-id="Fitur Utama:" data-lang-en="Key Features:">Fitur Utama:</h4>
+            <ul>
+                <li data-lang-id="Manajemen produk dan harga pulsa." data-lang-en="Product and price management for phone credits.">Manajemen produk dan harga pulsa.</li>
+                <li data-lang-id="Pencatatan transaksi penjualan." data-lang-en="Sales transaction recording.">Pencatatan transaksi penjualan.</li>
+                <li data-lang-id="Fitur kasir sederhana untuk menghitung total penjualan." data-lang-en="Simple cashier feature to calculate total sales.">Fitur kasir sederhana untuk menghitung total penjualan.</li>
+            </ul>
+
+            <h4>Tech Stack:</h4>
+            <div class="tech-stack">
+                <span class="tech-item">C</span>
+            </div>
+        </div>
+
+        <div class="project-item">
+            <h3 data-lang-id="Website Galeri Anime" data-lang-en="Anime Gallery Website">Website Galeri Anime</h3>
+            <p class="project-description" data-lang-id="Sebuah website frontend interaktif yang berfungsi sebagai galeri untuk menampilkan informasi seputar anime, dibangun menggunakan teknologi web dasar." data-lang-en="An interactive frontend website serving as a gallery to display anime-related information, built with fundamental web technologies.">Sebuah website frontend interaktif yang berfungsi sebagai galeri untuk menampilkan informasi seputar anime, dibangun menggunakan teknologi web dasar.</p>
+
+            <h4 data-lang-id="Fitur Utama:" data-lang-en="Key Features:">Fitur Utama:</h4>
+            <ul>
+                <li data-lang-id="Tampilan daftar anime dalam format galeri." data-lang-en="Anime list display in a gallery format.">Tampilan daftar anime dalam format galeri.</li>
+                <li data-lang-id="Halaman detail untuk setiap anime." data-lang-en="Detail page for each anime.">Halaman detail untuk setiap anime.</li>
+                <li data-lang-id="Desain antarmuka yang responsif untuk berbagai ukuran layar." data-lang-en="Responsive user interface design for various screen sizes.">Desain antarmuka yang responsif untuk berbagai ukuran layar.</li>
+            </ul>
+
+            <h4>Tech Stack:</h4>
+            <div class="tech-stack">
+                <span class="tech-item">HTML</span>
+                <span class="tech-item">CSS</span>
+                <span class="tech-item">JavaScript</span>
+            </div>
+        </div>
+
+        <div class="project-item">
+            <h3 data-lang-id="Website E-commerce 'FlashCell'" data-lang-en="'FlashCell' E-commerce Website">'FlashCell' E-commerce Website</h3>
+            <p class="project-description" data-lang-id="Aplikasi web full-stack yang mensimulasikan sebuah toko online. Proyek ini dibangun dengan backend Java dan menggunakan Thymeleaf sebagai template engine untuk merender halaman secara dinamis." data-lang-en="A full-stack web application simulating an online store. This project is built with a Java backend and uses Thymeleaf as a template engine to render pages dynamically.">Aplikasi web full-stack yang mensimulasikan sebuah toko online. Proyek ini dibangun dengan backend Java dan menggunakan Thymeleaf sebagai template engine untuk merender halaman secara dinamis.</p>
+
+            <h4 data-lang-id="Fitur Utama:" data-lang-en="Key Features:">Fitur Utama:</h4>
+            <ul>
+                <li data-lang-id="Menampilkan katalog produk." data-lang-en="Displaying a product catalog.">Menampilkan katalog produk.</li>
+                <li data-lang-id="Manajemen belanja (tambah, hapus, lihat produk)." data-lang-en="Shopping management (add, remove, view products).">Manajemen keranjang belanja (tambah, hapus, lihat produk).</li>
+                <li data-lang-id="Simulasi proses checkout." data-lang-en="Checkout process simulation.">Simulasi proses checkout.</li>
+            </ul>
+
+            <h4>Tech Stack:</h4>
+            <div class="tech-stack">
+                <span class="tech-item tech-backend">Java</span>
+                <span class="tech-item tech-template">Thymeleaf</span>
+                <span class="tech-item tech-db">MySQL</span>
+            </div>
+        </div>
+
+        <div class="project-item">
+            <h3 data-lang-id="Sistem Informasi Perpustakaan" data-lang-en="Library Information System">Sistem Informasi Perpustakaan</h3>
+            <p class="project-description" data-lang-id="Aplikasi web komprehensif untuk manajemen perpustakaan, dikembangkan menggunakan arsitektur backend yang kuat dengan Spring Framework." data-lang-en="A comprehensive web application for library management, developed using a robust backend architecture with the Spring Framework.">Aplikasi web komprehensif untuk manajemen perpustakaan, dikembangkan menggunakan arsitektur backend yang kuat dengan Spring Framework.</p>
+
+            <h4 data-lang-id="Fitur Utama:" data-lang-en="Key Features:">Fitur Utama:</h4>
+            <ul>
+                <li data-lang-id="Manajemen data buku (CRUD - Create, Read, Update, Delete)." data-lang-en="Book data management (CRUD - Create, Read, Update, Delete).">Manajemen data buku (CRUD - Create, Read, Update, Delete).</li>
+                <li data-lang-id="Sistem pencatatan peminjaman dan pengembalian buku." data-lang-en="Book borrowing and return recording system.">Sistem pencatatan peminjaman dan pengembalian buku.</li>
+                <li data-lang-id="Pengelolaan data anggota perpustakaan." data-lang-en="Library member data management.">Pengelolaan data anggota perpustakaan.</li>
+            </ul>
+
+            <h4>Tech Stack:</h4>
+            <div class="tech-stack">
+                <span class="tech-item tech-backend">Java Spring</span>
+                <span class="tech-item tech-db">PostgreSQL</span>
+            </div>
+        </div>
+        
+    </div>
+</section>
 
                 <section class="teaching-experience">
                     <h2 data-lang-id="PENGALAMAN MENGAJAR" data-lang-en="TEACHING EXPERIENCE">PENGALAMAN MENGAJAR</h2>
